@@ -39,6 +39,8 @@ class EJSCREENETL(ExtractTransformLoad):
             field_names.OVER_64_FIELD,
             field_names.UNDER_5_FIELD,
             field_names.LEAD_PAINT_FIELD,
+            field_names.PERCENT_AFRICAN_FIELD,
+            # Add Percentage Black field
         ]
 
     def extract(self) -> None:
