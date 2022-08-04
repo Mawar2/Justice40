@@ -17,6 +17,7 @@ describe('rendering of the AreaDetail', () => {
     [constants.TOTAL_POPULATION]: 3435435,
     [constants.STATE_NAME]: 'New York',
     [constants.COUNTY_NAME]: 'Brooklyn',
+    [constants.PERCENTAGE_AA]: 34,
     [constants.POVERTY_BELOW_200_PERCENTILE]: .19,
     [constants.SIDE_PANEL_STATE]: constants.SIDE_PANEL_STATE_VALUES.NATION,
     [constants.COUNT_OF_CATEGORIES_DISADV]: 5,

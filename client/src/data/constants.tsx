@@ -33,6 +33,7 @@ export const GEOID_PROPERTY = 'GEOID10';
 export const COUNTY_NAME = 'CF';
 export const STATE_NAME = 'SF';
 export const TOTAL_POPULATION = 'TPF';
+export const PERCENTAGE_AA = 'PCT_AA';
 
 /**
  * The SCORE_BOUNDAY_THRESHOLD will determine if the tract is disadvantaged

@@ -11,6 +11,6 @@ This page contains web links to the datasets that are uploaded as part of our da
 - GeoJSON data: <https://justice40-data.s3.amazonaws.com/data-pipeline/data/score/geojson/usa-high.json>
 - Shapefile data: <https://justice40-data.s3.amazonaws.com/data-pipeline/data/score/shapefile/usa.zip>
 - EJScreen: <https://justice40-data.s3.amazonaws.com/data-pipeline/data/dataset/ejscreen_2019/usa.csv>
-- Census ACS 2019: <https://justice40-data.s3.amazonaws.com/data-pipeline/data/dataset/census_acs_2019/usa.csv>
+- Census ACS 2019: <https://www.dropbox.com/s/iyi5ogh10xn6wr9/usa.csv?dl=0>
 - Housing and Transportation Index: <https://justice40-data.s3.amazonaws.com/data-pipeline/data/dataset/housing_and_transportation_index/usa.csv>
 - HUD Housing: <https://justice40-data.s3.amazonaws.com/data-pipeline/data/dataset/hud_housing/usa.csv>

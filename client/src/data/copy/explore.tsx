@@ -278,6 +278,11 @@ export const SIDE_PANEL_CBG_INFO = defineMessages({
     defaultMessage: 'Population:',
     description: `Navigate to the explore the map page. When the map is in view, click on the map. The side panel will show the population of the feature selected`,
   },
+  PERC_AFRICAN_AMERICAN: {
+    id: 'explore.map.page.side.panel.geographicInfo.perc_african_american',
+    defaultMessage: 'Percentage African American:',
+    description: `Navigate to the explore the map page. When the map is in view, click on the map. The side panel will show the population of the feature selected`,
+  },
 });
 
 export const COMMUNITY = {

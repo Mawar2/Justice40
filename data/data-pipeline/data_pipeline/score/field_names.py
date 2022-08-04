@@ -9,6 +9,7 @@ ISLAND_AREAS_PERCENTILE_ADJUSTMENT_FIELD = " for island areas"
 GEOID_TRACT_FIELD = "GEOID10_TRACT"
 STATE_FIELD = "State/Territory"
 COUNTY_FIELD = "County Name"
+PERCENT_AFRICAN_FIELD = "Percent African American"
 
 # Score file field names
 SCORE_A = "Score A"

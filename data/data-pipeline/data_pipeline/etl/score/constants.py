@@ -147,6 +147,7 @@ TILES_FEMA_ROUND_NUM_DECIMALS = 4
 
 # Tiles data: full field name, tile index name
 TILES_SCORE_COLUMNS = {
+    field_names.PERCENT_AFRICAN_FIELD: "PCT_AA",
     field_names.GEOID_TRACT_FIELD: "GTF",
     field_names.STATE_FIELD: "SF",
     field_names.COUNTY_FIELD: "CF",

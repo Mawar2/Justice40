@@ -52,8 +52,9 @@ const AreaDetail = ({properties, hash}: IAreaDetailProps) => {
   const population = properties[constants.TOTAL_POPULATION] ? properties[constants.TOTAL_POPULATION] : "N/A";
   const countyName = properties[constants.COUNTY_NAME] ? properties[constants.COUNTY_NAME] : "N/A";
   const stateName = properties[constants.STATE_NAME] ? properties[constants.STATE_NAME] : "N/A";
+  // adding racial data - #TODO: identify GRAPHQL mapping for data integration
+  const percentageAA = properties[constants.PERCENTAGE_AA] ? properties[constants.PERCENTAGE_AA] : "x%";
   const sidePanelState = properties[constants.SIDE_PANEL_STATE];
-
   const isCommunityFocus = score >= constants.SCORE_BOUNDARY_THRESHOLD;
 
   const feedbackEmailSubject = hash ? `
@@ -571,6 +572,12 @@ const AreaDetail = ({properties, hash}: IAreaDetailProps) => {
             {intl.formatMessage(EXPLORE_COPY.SIDE_PANEL_CBG_INFO.POPULATION)}
           </span>
           <span className={styles.censusText}>{` ${population.toLocaleString()}`}</span>
+        </li>
+        <li>
+          <span className={styles.censusLabel}>
+            {intl.formatMessage(EXPLORE_COPY.SIDE_PANEL_CBG_INFO.PERC_AFRICAN_AMERICAN)}
+          </span>
+          <span className={styles.censusText}>{` ${percentageAA.toLocaleString()}`}</span>
         </li>
       </ul>
 
